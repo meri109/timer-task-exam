@@ -1,0 +1,39 @@
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    .container{
+        background-color: olive;
+        border-radius: 10px;
+        width: 400px;
+        height: 300px;
+
+        .timer-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            h1{
+                font-size: 25px;
+            }
+        }
+        .pause-stop{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                font-size: 20px;
+                font-weight: bold;
+                color: olive;
+                margin: 30px;
+                background-color: black;
+                padding: 10px 25px;
+                border-radius: 7px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
